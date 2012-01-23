@@ -1,0 +1,15 @@
+Source: iceberg
+Section: misc
+Priority: extra
+Maintainer: Anderson Lizardo <anderson.lizardo@openbossa.org>
+Build-Depends: debhelper (>= 8.0.0), cmake, libqt4-dev, libicecc-dev
+Standards-Version: 3.9.2
+Vcs-Git: git://github.com/hugopl/Iceberg.git
+Vcs-Browser: https://github.com/hugopl/Iceberg
+
+Package: iceberg
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Icecc monitor fork
+ A fork of Icemon, an Icecc monitor, that doesn't depend on KDE libs.
+ <insert long description, indented with spaces>
